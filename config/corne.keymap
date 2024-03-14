@@ -1,9 +1,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
-&lt {
-    tapping-term-ms = <135>;
-};
+
 / {
         keymap {
             compatible = "zmk,keymap";
@@ -15,20 +13,24 @@
                   &kp LSHFT &lt 1 TAB &kp SPACE   &kp RET &lt 2 BSPC &kp INS
                         >;
                 };
-                lower_layer {
+                88_layer {
                         bindings = <
 &kp ESC    &kp N1       &kp N2       &kp N3       &kp N4       &kp N5         &kp N6   &kp N7   &kp N8 &kp N9    &kp N0 &kp MINUS
-&kp DEL & kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &kp DOWN &kp UP &kp HOME &kp END &kp K_APP
-&kp LSHFT  &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &kp F12   &kp LEFT &kp RIGHT &kp PG_UP &kp PG_DN &kp PSCRN
-&kp LSHFT &trans       &kp SPACE      &kp RET  &trans   &kp INS
+&kp DEL &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 
+&kp F6 &kp DOWN &kp UP &kp HOME &kp END &kp K_APP
+&kp LSHFT &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 
+&kp F12   &kp LEFT &kp RIGHT &kp PG_UP &kp PG_DN &kp PSCRN
+&kp LSHFT &trans &kp SPACE &kp RET &trans &kp INS
                         >;
                 };
 
                 raise_layer {
                         bindings = <
 &kp  ESC  &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT   &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR &kp MINUS
-&kp K_PREV & kp K_NEXT &kp K_PP &kp K_VOL_UP &kp K_VOL_DN &trans &kp MINUS &kp EQUAL &kp LBKT        &kp RBKT &kp BSLH &kp GRAVE
-&bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &kp UNDER &kp PLUS  &kp LBRC        &kp RBRC &kp PIPE &kp TILDE
+&kp K_PREV &kp K_NEXT &kp K_PP &kp K_VOL_UP &kp K_VOL_DN &trans 
+&kp MINUS &kp EQUAL &kp LBKT        &kp RBKT &kp BSLH &kp GRAVE
+&bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 
+&kp UNDER &kp PLUS  &kp LBRC        &kp RBRC &kp PIPE &kp TILDE
 &kp LSHFT &trans   &kp SPACE   &kp RET   &trans    &kp INS
                         >;
                 };
