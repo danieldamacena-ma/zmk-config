@@ -19,8 +19,8 @@
    &kp CLCK &mt LALT A &mt LGUI S &mt LCTRL D &mt LSHFT F &kp G
    &kp H   &mt LSHFT J  &mt LCTRL K     &mt LGUI L &mt LALT SEMI &kp SQT
    &kp CARET &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp TILDE
-                  &kp LGUI &lt 1 TAB &mp LSHIFT SPACE
-                  &mp RSHIFT RET &lt 2 BSPC &kp INS
+                  &kp LGUI &lt 1 TAB &mt LSHIFT SPACE
+                  &mt RSHIFT RET &lt 2 BSPC &kp INS
                         >;
                 };
                 88_layer {
