@@ -19,7 +19,7 @@
    &kp ESC   &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P    &kp MINUS
    &kp CLCK &mt LALT A &mt LGUI S &mt LCTRL D &mt LSHFT F &kp G
    &kp H   &mt LSHFT J  &mt LCTRL K     &mt LGUI L &mt LALT SEMI &kp SQT
-   &kp CARET &kp Z &kp X &kp C &mt LGUI V &kp B   &mt LGUI N &kp M  &kp COMMA &kp DOT &kp FSLH &kp TILDE
+   &kp CARET &kp Z &kp X &kp C &mt LGUI V &kp B   &kp N &mt LGUI M &kp COMMA &kp DOT &kp FSLH &kp TILDE
                   &kp LGUI &lt 1 TAB &mt LSHIFT SPACE
                   &mt RSHIFT RET &lt 2 BSPC &kp INS
                         >;
