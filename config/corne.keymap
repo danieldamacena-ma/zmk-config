@@ -23,12 +23,12 @@
                   &mt RSHIFT RET &lt 2 BSPC &kp INS
                         >;
                 };
-                88_layer {
+                lower_layer {
                         bindings = <
 &kp ESC    &kp N1       &kp N2       &kp N3       &kp N4       &kp N5         &kp N6   &kp N7   &kp N8 &kp N9    &kp N0 &kp MINUS
-&kp DEL &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 
+&kp DEL &mt LALT F1 &mt LGUI F2 &mt LCTRL F3 &mt LSHFT F4 &kp F5 
 &kp F6 &kp DOWN &kp UP &kp HOME &kp END &kp K_APP
-&kp LSHFT &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 
+&kp LSHFT &kp F7 &kp F8 &kp F9 &mt LGUI F10 &kp F11 
 &kp F12   &kp LEFT &kp RIGHT &kp PG_UP &kp PG_DN &kp PSCRN
 &trans &trans &trans &kp K_APP &kp DEL &kp PSCRN
                         >;
