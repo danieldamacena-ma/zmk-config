@@ -11,6 +11,7 @@
 };
 
 / {
+        behaviors {
         ts: thumb shifts {
     compatible = "zmk,behavior-hold-tap";
     #binding-cells = <2>;
@@ -19,7 +20,8 @@
     require-prior-idle-ms = <80>;
     bindings = <&kp>, <&kp>;
 };
-
+        }
+        
         keymap {
             compatible = "zmk,keymap";
             default_layer {
