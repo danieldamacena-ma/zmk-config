@@ -11,6 +11,15 @@
 };
 
 / {
+        ts: thumb shifts {
+    compatible = "zmk,behavior-hold-tap";
+    #binding-cells = <2>;
+    flavor = "hold-preferred";
+    tapping-term-ms = <120>;
+    require-prior-idle-ms = <80>;
+    bindings = <&kp>, <&kp>;
+};
+
         keymap {
             compatible = "zmk,keymap";
             default_layer {
@@ -19,8 +28,8 @@
    &kp CLCK &mt LALT A &mt LGUI S &mt LCTRL D &mt LSHFT F &kp G
    &kp H   &mt LSHFT J  &mt LCTRL K     &mt LGUI L &mt LALT SEMI &kp SQT
    &kp CARET &kp Z &kp X &kp C &mt LGUI V &kp B   &kp N &mt LGUI M &kp COMMA &kp DOT &kp FSLH &kp TILDE
-                  &kp LGUI &lt 1 TAB &mt LSHIFT SPACE {tapping-term-ms = <120>;}
-                  &mt RSHIFT RET &lt 2 BSPC &kp INS {tapping-term-ms = <120>;}
+                  &kp LGUI &lt 1 TAB &ts LSHIFT SPACE
+                  &ts RSHIFT RET &lt 2 BSPC &kp INS
                         >;
                 };
                 lower_layer {
