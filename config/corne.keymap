@@ -54,8 +54,8 @@
         numpad_layer {
             bindings = <
 &kp ESC &trans &trans &trans &trans &trans            &kp KP_DIVIDE &kp KP_N7 &kp KP_N8 &kp KP_N9 &kp KP_MULTIPLY &trans
-&kp INS &kp LALT &kp LGUI &kp LCTRL &kp LSHFT &trans &kp KP_PLUS &kp KP_N4 &kp KP_N5 &kp KP_N6 &kp KP_SUBTRACT &trans
-&kp LSHFT &trans &trans &trans &kp LGUI &trans &kp KP_NUMLOCK &kp KP_N1 &kp KP_N2 &kp KP_N3 &trans &trans
+&kp INS &kp HOME &kp END &kp UP &kp DOWN &trans &kp KP_PLUS &kp KP_N4 &kp KP_N5 &kp KP_N6 &kp KP_SUBTRACT &trans
+&kp LSHFT &kp PG_DN &kp PG_UP&kp LEFT &kp RIGHT &trans &kp KP_NUMLOCK &kp KP_N1 &kp KP_N2 &kp KP_N3 &trans &trans
 &trans &trans &trans &trans &trans &trans
             >;
         };
