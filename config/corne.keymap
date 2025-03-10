@@ -30,7 +30,7 @@
                 &mt LALT H   &mt LSHFT J  &mt LCTRL K     &mt LGUI L &mt LALT SEMI &ts CLCK SQT
                 &kp CARET &kp Z &kp X &kp C &mt LGUI V &kp B   &kp N &mt LGUI M &kp COMMA &kp DOT &kp FSLH &kp TILDE
                 &kp LGUI &lt 1 TAB &ts LSHIFT SPACE
-                &ts RSHIFT RET &lt 2 BSPC & INS
+                &ts RSHIFT RET &lt 2 BSPC &kp INS
                 >;
         }; //default
         lower_layer {
