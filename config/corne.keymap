@@ -3,11 +3,11 @@
 #include <dt-bindings/zmk/bt.h>
 
 &mt {
-    tapping-term-ms = <160>;
+    tapping-term-ms = <150>;
     flavor = "tap-preferred";
 };
 &lt {
-    tapping-term-ms = <120>;
+    tapping-term-ms = <130>;
 };
 
 / {
@@ -15,7 +15,7 @@
         ts: thumb_shifts {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            flavor = "hold-preferred";
+            flavor = "tap-preferred";
             tapping-term-ms = <140>;
             bindings = <&kp>, <&kp>;
         }; //thumb shift
