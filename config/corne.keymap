@@ -31,9 +31,9 @@
                 &mt LALT H   &mt LSHFT J  &mt LCTRL K     &mt LGUI L &mt LALT SEMI &kp SQT
                 &kp CARET &kp Z &kp X &kp C &mt LGUI V &kp B   &kp N &mt LGUI M &kp COMMA &kp DOT &kp FSLH &kp TILDE
                 &kp LGUI &lt 1 TAB &ts LEFT_SHIFT SPACE
-                &ts RIGHT_SHIFT RET &lt 2 BACKSPACE $kp INS
-                >;
-            };
+                &ts RIGHT_SHIFT RET &lt 2 BACKSPACE &kp INS
+            >;
+        };
 
         lower_layer {
             bindings = <
